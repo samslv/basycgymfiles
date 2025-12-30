@@ -1,3 +1,4 @@
 [
-    { "version": "2.0.0", "installApk": true, "changelog": "Se añadido el gestor de actualizaciones y correccion al añadir ejercicio desde el detalle" }
+    { "version": "2.0.0", "installApk": true, "changelog": "Se añadido el gestor de actualizaciones y correccion al añadir ejercicio desde el detalle" },
+    { "version": "2.0.1", "installApk": false, "changelog": "Se corrige el tipo de unidad en ejercicio en progreso y se muestra el último entrenamiento cuando marca recuperar ultimo entrenamiento" }
 ]
