@@ -15,11 +15,11 @@ version.json
 version.log.json
 
 - Posición 0 (obligatorio): Versión mayor que obliga a descargar nueva apk "installApk": true
-- Posición 1 (opcional): Versión menor (posterior a la mayor) que actualiza el contenido mediante un update.zip "installApk": false
+- Posición 1 en adelante (opcional): Versión menor (posterior a la mayor) que actualiza el contenido mediante un update.zip "installApk": false
 
 Ejemplo
 
 [
-    { "version": "2.0.0", "installApk": true, "changelog": "..." },
-    { "version": "2.0.1", "installApk": false, "changelog": "..." }
+    { "version": "2.0.0", "installApk": true, "changelog": "..." || [] },
+    { "version": "2.0.1", "installApk": false, "changelog": "..." || [] }
 ]
